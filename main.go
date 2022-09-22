@@ -73,4 +73,16 @@ func main() {
 	fmt.Println(z1)
 	fmt.Println(z1 + z)
 
+	//Rune:
+	var myString1 string = "Nhẫn"
+
+	runes := []rune(myString1)
+
+	for i := 0; i < len(runes); i++ {
+		fmt.Printf("%c", runes[i])
+	}
+	println()
+	var myRune rune = 'A'
+	fmt.Printf("%T", myRune) // bản chất rune giống int32
+
 }

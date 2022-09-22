@@ -47,4 +47,7 @@ func main() {
 	fmt.Println(bits.OnesCount32(math.MaxInt32))
 	fmt.Println(bits.OnesCount64(math.MaxInt64))
 
+	//uint: Số nguyên dương
+	var myUInt uint = 10
+	fmt.Println(myUInt)
 }

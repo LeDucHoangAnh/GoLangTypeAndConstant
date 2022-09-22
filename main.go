@@ -50,7 +50,7 @@ func main() {
 	//uint: Số nguyên dương
 	var myUInt uint = 10
 	fmt.Println(myUInt)
-	//byte:tối đa 0->255
+	//byte:tối đa 0->255 giống với int8
 	var myByte byte = 255
 	fmt.Println(myByte)
 	fmt.Printf("%T", myByte)
@@ -91,4 +91,9 @@ func main() {
 	var zero2 float64 = 2.1
 	fmt.Println(zero1 + int(zero2))
 	fmt.Println(zero2 + float64(zero1))
+
+	//Constants
+	const PI = 3.14159
+	fmt.Println(PI)
+
 }

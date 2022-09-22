@@ -9,4 +9,8 @@ func main() {
 
 	var mySecondBool bool = false
 	fmt.Println(mySecondBool)
+
+	//String
+	var myString string = "hello"
+	fmt.Println(myString)
 }

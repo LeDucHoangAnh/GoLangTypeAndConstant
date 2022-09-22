@@ -65,4 +65,12 @@ func main() {
 	var myFloat float64 = 10.01
 	fmt.Println(myFloat)
 
+	//complex z = a + bi:số phức
+	var z complex64 = 10 + 1i
+	fmt.Println(z)
+
+	var z1 complex64 = 10 + 1i
+	fmt.Println(z1)
+	fmt.Println(z1 + z)
+
 }

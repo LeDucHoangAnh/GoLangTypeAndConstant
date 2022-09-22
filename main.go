@@ -13,4 +13,9 @@ func main() {
 	//String
 	var myString string = "hello"
 	fmt.Println(myString)
+
+	//Int
+	var myInt int = 123
+	fmt.Println(myInt)
+
 }

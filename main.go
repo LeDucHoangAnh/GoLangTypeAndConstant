@@ -50,4 +50,13 @@ func main() {
 	//uint: Số nguyên dương
 	var myUInt uint = 10
 	fmt.Println(myUInt)
+	//byte:tối đa 0->255
+	var myByte byte = 255
+	fmt.Println(myByte)
+	fmt.Printf("%T", myByte)
+	fmt.Println()
+
+	var a byte = 'E'
+	fmt.Printf("%X", a)
+
 }

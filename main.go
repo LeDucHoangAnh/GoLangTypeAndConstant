@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	// Boolean
@@ -18,4 +21,23 @@ func main() {
 	var myInt int = 123
 	fmt.Println(myInt)
 
+	//int 8, 16, 32, 64:số lượng bit tối đa có thể đại diện cho các biến có kiểu dữ liệu dạng này
+	//1. Range
+	//Range Int8 (-128 -> 127)
+	fmt.Println(math.MinInt8)
+	fmt.Println(math.MaxInt8)
+
+	//Range Int16 (-32768 -> 32767)
+	fmt.Println(math.MinInt16)
+	fmt.Println(math.MaxInt16)
+
+	//Range Int32 (-2147483648 -> 2147483647)
+	fmt.Println(math.MinInt32)
+	fmt.Println(math.MaxInt32)
+
+	//Range Int64 (-9223372036854775808 -> 9223372036854775807)
+	fmt.Println(math.MinInt64)
+	fmt.Println(math.MaxInt64)
+
+	//2. Bits
 }

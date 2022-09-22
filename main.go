@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"math/bits"
 )
 
 func main() {
@@ -40,4 +41,10 @@ func main() {
 	fmt.Println(math.MaxInt64)
 
 	//2. Bits
+	fmt.Println("==========")
+	fmt.Println(bits.OnesCount8(math.MaxInt8))
+	fmt.Println(bits.OnesCount16(math.MaxInt16))
+	fmt.Println(bits.OnesCount32(math.MaxInt32))
+	fmt.Println(bits.OnesCount64(math.MaxInt64))
+
 }

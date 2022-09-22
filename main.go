@@ -92,8 +92,18 @@ func main() {
 	fmt.Println(zero1 + int(zero2))
 	fmt.Println(zero2 + float64(zero1))
 
-	//Constants
+	//Constants:hằng số
 	const PI = 3.14159
 	fmt.Println(PI)
 
+	//uintptr: sử dụng để lưu địa chỉ con trỏ
+	/*
+		key - value
+		key = uintptr
+		value = Object (*point)
+
+		key = (*point) -> uintptr
+		map.put(key : value)
+		Giống JSON
+	*/
 }

@@ -58,5 +58,11 @@ func main() {
 
 	var a byte = 'E'
 	fmt.Printf("%X", a)
+	fmt.Println()
+
+	//float: Số thực
+	//float64
+	var myFloat float64 = 10.01
+	fmt.Println(myFloat)
 
 }

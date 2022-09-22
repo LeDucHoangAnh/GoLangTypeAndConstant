@@ -84,5 +84,11 @@ func main() {
 	println()
 	var myRune rune = 'A'
 	fmt.Printf("%T", myRune) // bản chất rune giống int32
-
+	println()
+	//Zero values
+	//Type conversions
+	var zero1 int = 1
+	var zero2 float64 = 2.1
+	fmt.Println(zero1 + int(zero2))
+	fmt.Println(zero2 + float64(zero1))
 }
